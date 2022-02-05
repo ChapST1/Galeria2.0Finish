@@ -31,10 +31,10 @@ darkIcon.addEventListener('click',()=>{
     btnMore.classList.toggle("moreDark")
 
 
-    if(darkIcon.src.includes('sun.svg')){
-        darkIcon.src = 'assets/moon.svg';
+    if(darkIcon.src.includes('moon.svg')){
+        darkIcon.src = 'assets/sun.svg';
     }else{
-        darkIcon.src = 'assets/sun.svg'
+        darkIcon.src = 'assets/moon.svg'
     }
 
     enlaces.forEach(enlaces =>{
