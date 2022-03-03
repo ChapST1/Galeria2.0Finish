@@ -23,12 +23,14 @@ darkIcon.addEventListener('click',()=>{
     let seccionUno = document.getElementById("seccionUno");
     let enlaces = document.querySelectorAll(".nav__a");
     let btnMore = document.querySelector(".moreImages");
+    let scroll = document.querySelector(".body");
     seccionUno.classList.toggle("seccionUnoActiveDarkMode");
 
     footer.classList.toggle("footerDark")
     header.classList.toggle("darkHeader");
     nav.classList.toggle("navDark");
     btnMore.classList.toggle("moreDark")
+    scroll.classList.toggle("bodyactive")
 
 
     if(darkIcon.src.includes('moon.svg')){
